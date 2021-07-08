@@ -1,0 +1,39 @@
+doctype html
+html(lang="es")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title Cards
+		link(rel="preconnect" href="https://fonts.googleapis.com")
+		link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+		link(href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet")
+		link(rel="stylesheet", href="css/styles.css")
+	body
+		header 
+			h1 
+				span.main-title.text-thin Reliabe, efficient delivery
+				span.main-title.text-bold Power by Technology
+			p.subtitle.text-light Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful.
+
+		main
+			section.cards
+				.card.card--cian.card--left
+					h2.card__title Supervisor
+					p.card__text.text-light Monitors activity to identify project roadblocks
+					img(src="assets/images/icon-supervisor.svg", alt="Logo supervisor" class='card__icon')
+
+				.card.card--red.card--top
+					h2.card__title Team Builder
+					p.card__text.text-light Scans our talent network to create the optimal team for your project
+					img(src="assets/images/icon-team-builder.svg", alt="Logo Team Builder" class='card__icon')
+
+				.card.card--orange.card--bottom
+					h2.card__title.text-light Karma
+					p.card__text Scans our talent network to create the optimal team for your project
+					img(src="assets/images/icon-karma.svg", alt="Logo Karma" class='card__icon')
+
+				.card.card--blue.card--right
+					h2.card__title.text-light Calculator
+					p.card__text Uses data from past projects to provide better delivery estimates
+					img(src="assets/images/icon-calculator.svg", alt="Logo Calculator" class='card__icon')
