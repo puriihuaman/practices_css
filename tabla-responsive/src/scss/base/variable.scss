@@ -1,0 +1,112 @@
+:root {
+	/* COLORS */
+	/* dark color */
+	--dark-color100: #315068;
+	--dark-color200: #203646;
+	--dark-color300: #1F3342;
+	--dark-color400: #1B2E3B;
+	--dark-color500: #101D29;
+	--dark-color600: #0B1522;
+
+	/* light color */
+	--light-color100: #FFFFFF;
+	--light-color200: #FEFEFE;
+	--light-color300: #FCFCFC;
+	--light-color400: #F9F9F9;
+	--light-color500: #F5F5F5;
+	--light-color600: #d1d1d1;
+
+	--primary-color100: #CEF5FE;
+	--primary-color200: #9FE6FD;
+	--primary-color300: #6ECFF9;
+	--primary-color400: #4AB7F4;
+	--primary-color500: #1192EE;
+	--primary-color600: #0C71CC;
+	--primary-color700: #0854AB;
+
+	/* Second color */
+	--second-color400: #E36F7B;
+	--second-color500: #ec4052;
+	--second-color600: #d63343;
+
+	/* Third color */
+	--third-color400: #FFC14D;
+	--third-color500: #ffa500;
+	--third-color600: #E69500;
+
+	/* otros colores */
+	--four-color400: #55b742;
+	--four-color500: #20b004;
+	--four-color600: #22990b;
+
+	/* Fonts Family */
+	--heading-font: 'Raleway', sans-serif;
+	--body-font: 'Open Sans', sans-serif;
+
+	/* Fonts size */
+	--h1-font-size: 2rem;
+	--h2-font-size: 1.5rem;
+	--h3-font-size: 1.25rem;
+	--normal-font-size: 1rem;
+	--small-font-size: 0.85rem;
+
+	/* Width layout */
+	--width-layout: 80rem;
+
+	/* Heights */
+	--header-height: 3rem;
+
+	/* Paddings */
+	--small-padding: 0.5rem;
+	--normal-padding: 1rem;
+	--large-padding: 1.5rem;
+	--x-large-padding: 2rem;
+
+	/* Margins */
+	--small-margin: 0.5rem;
+	--normal-margin: 1rem;
+	--large-margin: 1.5rem;
+	--x-large-margin: 2rem;
+
+	/* Border-radius */
+	--border-radius: 0.3rem;
+
+	/* Z-index */
+	--z-index100: 100;
+	--z-index200: 110;
+	--z-index300: 120;
+
+	/* grid gaps */
+	--small-gap: 0.5rem;
+	--normal-gap: 1rem;
+	--large-gap: 1.5rem;
+
+	/* Table */
+	--width-table: 1200px;
+	--height-table: 300px;
+	--frozen-width: 10rem;
+
+	/* Medidas de media querys */
+	--table-width: 48rem;
+	--desktop-width: 64rem;
+	--large-desktop-width: 80rem;
+
+	--table-width: 768px;
+	--desktop-width: 1024px;
+	// --large-desktop-width: 1280px;
+	--large-desktop-width: var(--width-layout);
+
+	@media screen and (min-width: var(--desktop-width)) {
+		& {
+			/* Fonts size */
+			--h1-font-size: 2.5rem;
+			--h2-font-size: 1.75rem;
+			--h3-font-size: 1.50rem;
+			--normal-font-size: 1.1rem;
+			--small-font-size: .95rem;
+	
+			/* Heights */
+			--header-height: 4rem;
+		}
+	}
+}
