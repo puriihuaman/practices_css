@@ -1,0 +1,55 @@
+:root {
+	--primary-color: #868b8d;
+	--color-rgba: rgba(102, 102, 102, 0.2);
+	--dark-color: #000;
+	--second-dark-color: #262626;
+	--light-color: #fff;
+}
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	background-image: repeating-linear-gradient(90deg, #fff, #fff 20px, #fbfbfb 20px, #fbfbfb 40px);
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	object-fit: cover;
+}
+
+
+
+/* ---------- HEADER ----------*/
+
+
+
+
+
+
+
+/* ---------- Articulos ----------*/
+
+
+
+
+
+
+/* ---------- Articulo Destacado ----------*/
+
+
+
+
+/*---------- CONTENIDO ----------*/
+
+
+/*---------- SIDEBAR ----------*/
+
+
+
+
+
+/*---------- FOOTER ----------*/
